@@ -91,8 +91,7 @@ module "blog_alb" {
   }
 
   tags = {
-    Environment = "Dev"
-    Project     = "Example"
+    Environment = "dev"
   }
 }
 
